@@ -1,8 +1,21 @@
 ---
 layout: default
 sections:
-- id: participation
-  title: Public Participation
+- id: _1what
+  title: What?
+- id: _2goals
+  title: Goals
+- id: _3understanding
+  title: Understanding
+- id: _4design
+  title: Design
+- id: _5facilitate
+  title: Facilitate
+- id: _6report
+  title: Report
+- id: _7links
+  title: Links
+
 
 header_icons:
   - cloud
@@ -64,17 +77,6 @@ scripts:
     </ul>
   </aside>
 
-  <div class="container">
-    <h1>
-      <div>
-        {% for icon in page.header_icons %}
-        <img class="icon {{ icon }}" src="{{ site.baseurl }}/img/icons/{{ icon }}.svg">
-        {% endfor %}
-      </div>
-      Your Federalist Website would put its summary here
-    </h1>
-  </div>
-
   <nav>
     <ul class="container">
     {% for section in page.sections %}
@@ -82,13 +84,14 @@ scripts:
     {% endfor %}
     </ul>
   </nav>
+
 </header>
 
 <main>
   {% for section in page.sections %}
-  <section id="{{ section.id }}">
+  <section class="section" id="{{ section.id }}">
     <div class="container">
-      <h1>{{ section.title }}</h1>
+      <h1 data-img="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/03/678-x-387-US-Public-Participation-Playbook-cover-image-Group-of-World-People-s-Hands-Robert-Churchill-iStock-Thinkstock-480665457.jpg">{{ section.title }}</h1>
       {% capture content %}{% include {{ section.id }}.md %}{% endcapture %}
       {{ content | markdownify }}
     </div>

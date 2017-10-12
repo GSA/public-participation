@@ -1,4 +1,9 @@
 @import 'variables';
+@import '_modules/images';
+@import '_modules/header';
+@import '_modules/navbar';
+@import '_modules/section';
+@import '_modules/typography';
 
 html,
 body,
@@ -58,158 +63,6 @@ footer {
 
 h1 {
   margin: 0;
-}
-
-header {
-  background-color: $dark-blue;
-  background-image: url(../img/hero.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-
-  & > .container {
-    padding: 2em 0;
-
-    @media all and (max-width:$mobile-width) {
-      padding: 0;
-    }
-  }
-
-  h1 {
-    background: $slighty-transparent-blue;
-    color: $black;
-    font-size: 2rem;
-    padding: 1em;
-    position: relative;
-
-    .icon {
-      width: 2.3em;
-      height: 2.3em;
-      margin-right: 0.3em;
-
-      // the graph needs to be wider because
-      // it has a wider aspect ratio
-      &.graph {
-        width: 2.5em;
-      }
-    }
-  }
-
-  .flag-container {
-    background-color: $medium-blue;
-    color: white;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    padding: 0.625em 1.875em;
-
-    font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
-    font-size: 14px;
-    font-weight: 200;
-
-    img {
-      height: 12px;
-      width: 19px;
-    }
-
-    p {
-      font-size: .8em;
-      font-weight: 100;
-      margin: .1em;
-      margin-right: 1em;
-    }
-
-    @media all and (min-width: 1200px) {
-      background-color: transparent;
-      bottom: 2em;
-      position: absolute;
-      right: 2em;
-      z-index: 2;
-
-      img {
-        height: 16px;
-        width: 26px;
-      }
-
-      a:hover + p {
-        visibility: visible;
-      }
-
-      p {
-        visibility: hidden;
-      }
-    }
-  }
-}
-
-nav {
-  background: #000;
-  background: rgba(0, 0, 0, .8);
-  position: relative;
-
-  @media all and (max-width: $mobile-width) {
-    background: rgba(0, 0, 0, .4);
-  }
-
-  ul {
-    display: block;
-    line-height: 1;
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 1em;
-    text-align: left;
-    text-transform: uppercase;
-
-    li {
-      display: inline-block;
-      list-style: none;
-      margin: 0 2em 0 0;
-    }
-  }
-
-  a:link,
-  a:hover,
-  a:visited {
-    color: $green;
-    font-size: .8em;
-    letter-spacing: .1em;
-  }
-
-  a:hover {
-    color: $white;
-    text-decoration: none;
-  }
-}
-
-section h1 {
-  border-bottom: 12px solid;
-  padding-bottom: .5em;
-  position: relative;
-
-  &::after {
-    $icon-spacing: 4rem;
-    $icon-size: ($left-gutter - $icon-spacing - 2rem);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 65% auto;
-    border-radius: $icon-size;
-    border: 4px solid;
-    content: "";
-    display: block;
-    height: $icon-size;
-    margin-right: $icon-spacing;
-    margin-top: -($icon-size / 2);
-    position: absolute;
-    right: 100%;
-    top: 100%;
-    width: $icon-size;
-
-    @media all and (max-width: 1150px) {
-      display: none;
-    }
-  }
 }
 
 

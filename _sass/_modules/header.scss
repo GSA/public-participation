@@ -1,0 +1,83 @@
+
+header {
+  background-color: $dark-blue;
+  background-image: url("https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/03/678-x-387-US-Public-Participation-Playbook-cover-image-Group-of-World-People-s-Hands-Robert-Churchill-iStock-Thinkstock-480665457.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+
+  & > .container {
+    padding: 2em 0;
+
+    @media all and (max-width:$mobile-width) {
+      padding: 0;
+    }
+  }
+
+  h1 {
+    background: $slighty-transparent-blue;
+    color: $black;
+    font-size: 2rem;
+    padding: 1em;
+    position: relative;
+
+    .icon {
+      width: 2.3em;
+      height: 2.3em;
+      margin-right: 0.3em;
+
+      // the graph needs to be wider because
+      // it has a wider aspect ratio
+      &.graph {
+        width: 2.5em;
+      }
+    }
+  }
+
+  .flag-container {
+    background-color: $medium-blue;
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 0.625em 1.875em;
+
+    font-family: Lato, "Helvetica Neue", Helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+
+    img {
+      height: 12px;
+      width: 19px;
+    }
+
+    p {
+      font-size: .8em;
+      font-weight: 100;
+      margin: .1em;
+      margin-right: 1em;
+    }
+
+    @media all and (min-width: 1200px) {
+      background-color: transparent;
+      bottom: 2em;
+      position: absolute;
+      right: 2em;
+      z-index: 2;
+
+      img {
+        height: 16px;
+        width: 26px;
+      }
+
+      a:hover + p {
+        visibility: visible;
+      }
+
+      p {
+        visibility: hidden;
+      }
+    }
+  }
+}
