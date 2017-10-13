@@ -1,9 +1,6 @@
 
 ## <span style="color: #520f0f"><strong>Understand the Playing Field</strong></span>
 
-<!-- meta slider -->
-<img src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/16108641430_5cb8afc0b8_z1-150x150.jpg">
-<!--// meta slider-->
 
 ### <span style="color: #0f2a54">Play 2: Understand your participants and stakeholder groups</span> {#play2}
 

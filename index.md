@@ -3,19 +3,28 @@ layout: default
 sections:
 - id: _1what
   title: What?
+  image: https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/03/678-x-387-US-Public-Participation-Playbook-cover-image-Group-of-World-People-s-Hands-Robert-Churchill-iStock-Thinkstock-480665457-150x150.jpg
+- id: _1.5table
+  title: Table of Contents
+  image:
 - id: _2goals
   title: Goals
+  image: https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/13086328315_db6d44b9f6_z-e1422906629554-150x150.jpg
 - id: _3understanding
   title: Understanding
+  image: https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/16108641430_5cb8afc0b8_z1-150x150.jpg
 - id: _4design
   title: Design
+  image: https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/600-x-455-Accessibility-road-highway-sign-on-tablet-527x400-150x150.jpg
 - id: _5facilitate
   title: Facilitate
+  image: https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/8205558579_354514c23d_z-150x150.jpg
 - id: _6report
   title: Report
+  image: https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/Multiple-Paths-e1422733007212-150x150.jpg
 - id: _7links
   title: Links
-
+  image: ''
 
 header_icons:
   - cloud
@@ -56,26 +65,6 @@ scripts:
     <p>An official website of the U.S. government</p>
   </div>
 
-  <aside id="downloads">
-    <h3>Downloads<span id="caret"></span></h3>
-    <ul>
-      {% for download in page.downloads %}
-      <li>
-        <a href="{{ download.href | prepend: site.baseurl }}">
-          <div class="download-text">
-            <strong>{{ download.text.primary }}</strong>
-            <span>{{ download.text.secondary }}</span>
-          </div>
-          {% if download.image %}
-          <div class="download-image">
-            <img src="{{ download.image.href | prepend: site.baseurl }}" alt="{{ download.image.alt }}">
-          </div>
-          {% endif %}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </aside>
 
   <nav>
     <ul class="container">
@@ -91,7 +80,9 @@ scripts:
   {% for section in page.sections %}
   <section class="section" id="{{ section.id }}">
     <div class="container">
-      <h1 data-img="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/03/678-x-387-US-Public-Participation-Playbook-cover-image-Group-of-World-People-s-Hands-Robert-Churchill-iStock-Thinkstock-480665457.jpg">{{ section.title }}</h1>
+      <h1>{{ section.title }}
+        {% if section.image %}<img class="section__thumb" src="{{ section.image }}"> {% endif %}
+      </h1>
       {% capture content %}{% include {{ section.id }}.md %}{% endcapture %}
       {{ content | markdownify }}
     </div>

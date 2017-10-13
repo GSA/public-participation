@@ -1,48 +1,5 @@
-
-<h4 style="text-align: center">
-  Table of Contents
-</h4>
-
-**Establish goals**
-
-  * Play 1: Clearly define and communicate your objectives
-
-**Understand the Playing Field**
-
-  * Play 2: Understand your participants and stakeholder groups
-  * Play 3: Understand and communicate the benefit of participation
-  * Play 4: Empower participants through public/private partnership
-
-**Design Participation**
-
-  * Play 5: Select appropriate design format for public participation
-  * Play 6: Design for inclusiveness
-  * Play 7: Provide multi-tiered paths to participation
-  * Play 8: Provide effective and timely notifications
-  * Play 9: Encourage community building through responsive outreach
-  * Play 10: Protect citizen privacy
-
-**Facilitate Participation**
-
-  * Play 11: Use Data to Drive Decision Making
-
-**Evaluate and Report**
-
-  * Play 12: Transparently report outcomes and performance of participation
-
-<div>
-</div>
-
-
-
-
-* * *
-
 ## <span style="color: #520f0f"><strong>Establish goals</strong></span>
 
-<!-- meta slider -->
-<img src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/13086328315_db6d44b9f6_z-e1422906629554-150x150.jpg">
-<!--// meta slider-->
 
 ### <span style="color: #0f2a54">Play 1: Clearly define and communicate your objectives</span> {#play1}
 

@@ -1,12 +1,6 @@
 
 ## <span style="color: #520f0f"><strong>Design Participation</strong></span>
 
-<h3 style="text-align: center">
-  <!-- meta slider -->
-  <img src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/600-x-455-Accessibility-road-highway-sign-on-tablet-527x400-150x150.jpg">
-  <!--// meta slider-->
-</h3>
-
 ### <span style="color: #0f2a54">Play 5: Select appropriate design format for public participation</span> {#play5}
 
 Enable broad participation by offering responsive, accessible, intuitive, mobile-ready tools that can be rendered in multiple formats on a wide range of platforms.

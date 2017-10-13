@@ -1,0 +1,18 @@
+#_7links {
+    &::before,
+    &::after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+
+    &::after {
+        clear: both;
+    }
+}
+#_7links p,
+#_7links a {
+    border: 0;
+    float: left;
+    margin-right: 10px;
+    text-decoration: none;
+}

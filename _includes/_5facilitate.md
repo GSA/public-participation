@@ -1,10 +1,6 @@
 
 ## <span style="color: #520f0f"><strong>Facilitate Participation</strong></span>
 
-<!-- meta slider -->
-<img src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/8205558579_354514c23d_z-150x150.jpg">
-<!--// meta slider-->
-
 ### <span style="color: #0f2a54">Play 11: Use Data to Drive Decision Making</span> {#play11}
 
 Use data to inform decisions about engagement efforts and public participation. Data can help you decide the best format for your engagement effort, the best tools to use, the most receptive audiences and more. Data will help you get the desired results and adapt your engagement effort along the way.

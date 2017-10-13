@@ -1,6 +1,21 @@
+$icon-spacing: 4rem;
+$icon-size: ($left-gutter - $icon-spacing - 2rem);
+
 section h1 {
   border-bottom: 12px solid;
   padding-bottom: .5em;
   position: relative;
+
+  .section__thumb {
+      border-radius: 50%;
+      border: 4px solid;
+      border-radius: 50%;
+      display: block;
+      height: $icon-size;
+      width: $icon-size;
+      position: absolute;
+      right: 105%;
+      top: 0;
+  }
 
 }

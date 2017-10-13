@@ -6,9 +6,6 @@
   <span style="color: #00ff00">Open BETA</span>
 </p>
 
-<!-- meta slider -->
-<img class="section__header" src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/03/678-x-387-US-Public-Participation-Playbook-cover-image-Group-of-World-People-s-Hands-Robert-Churchill-iStock-Thinkstock-480665457.jpg">
-<!--// meta slider-->
 
 <div style="background-color: #a9c2da;color: white;margin: 0px;padding: 10px">
   <h5>

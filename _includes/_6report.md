@@ -2,9 +2,7 @@
 
 ## <span style="color: #520f0f"><strong>Evaluate and Report</strong></span>
 
-### <!-- meta slider -->
-<img src="https://s3.amazonaws.com/sitesusa/wp-content/uploads/sites/582/2015/01/Multiple-Paths-e1422733007212-150x150.jpg">
-<!--// meta slider-->
+
 
 ### <span style="color: #0f2a54">Play 12: Transparently report outcomes and performance of participation</span> {#play12}
 
