@@ -65,23 +65,24 @@ scripts:
     <p>An official website of the U.S. government</p>
   </div>
 
-
-  <nav>
-    <ul class="container">
-    {% for section in page.sections %}
-      <li><a href="#{{ section.id }}">{{ section.title }}</a></li>
-    {% endfor %}
-    </ul>
-  </nav>
-
+    <a href="#" id="menu-toggle">Menu</a>
 </header>
+
+<nav>
+
+  {% for section in page.sections %}
+    <a data-fullTitle="{{ section.title }}" data-shortTitle="{{ section.title }}" href="#{{ section.id }}">
+      {{ section.title }}
+    </a>
+  {% endfor %}
+</nav>
 
 <main>
   {% for section in page.sections %}
   <section class="section" id="{{ section.id }}">
     <div class="container">
       <h1>{{ section.title }}
-        {% if section.image %}<img class="section__thumb" src="{{ section.image }}"> {% endif %}
+        {% if section.image.size > 0 %}<img class="section__thumb" src="{{ section.image }}"> {% endif %}
       </h1>
       {% capture content %}{% include {{ section.id }}.md %}{% endcapture %}
       {{ content | markdownify }}

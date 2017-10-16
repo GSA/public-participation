@@ -1,0 +1,26 @@
+#menu-toggle {
+    color: white;
+    display: block;
+    padding: 0.425em 0.875em;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    &:hover {
+
+    }
+
+    @media (min-width: $mobile-width) {
+        display: none;
+    }
+
+
+    &::before,
+    &::after {
+        // background: white;
+        // content: '';
+        // display: block;
+        // height: 5px;
+        // width: 100%;
+    }
+}

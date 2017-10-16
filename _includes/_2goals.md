@@ -1,6 +1,3 @@
-## <span style="color: #520f0f"><strong>Establish goals</strong></span>
-
-
 ### <span style="color: #0f2a54">Play 1: Clearly define and communicate your objectives</span> {#play1}
 
 Federal agencies understand the importance of meaningful public engagement. The type of engagement will differ for each organization, depending on resources, audience and mission. Every agency must set goals that align with its unique definition of success and empowers the public to engage with agencies in order to influence government priorities.

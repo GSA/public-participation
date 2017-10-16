@@ -1,7 +1,3 @@
-
-## <span style="color: #520f0f"><strong>Understand the Playing Field</strong></span>
-
-
 ### <span style="color: #0f2a54">Play 2: Understand your participants and stakeholder groups</span> {#play2}
 
 Community and stakeholder understanding is key to organizing a successful participatory effort. Once you determine who you&#8217;re trying to reach, you can refine your outreach efforts to effectively communicate with participants and stakeholders.

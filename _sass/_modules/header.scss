@@ -5,8 +5,12 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  position: relative;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index:9999;
 
+  
   & > .container {
     padding: 2em 0;
 
