@@ -1,10 +1,9 @@
-nav {
-  background: #000;
-  background: rgba(0, 0, 0, .8);
-  position: relative;
-}
 
-  nav{
+nav {
+    background: #000;
+    background: rgba(0, 0, 0, .8);
+    position: relative;
+    
     display: block;
     line-height: 1;
     list-style: none;
@@ -14,7 +13,10 @@ nav {
     text-align: left;
     text-transform: uppercase;
 
-
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 9999;
 
     @media all and (max-width: $mobile-width) {
         background: black;
