@@ -16,7 +16,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    z-index: 9999;
+    z-index: 1;
 
     @media all and (max-width: $mobile-width) {
         background: black;
