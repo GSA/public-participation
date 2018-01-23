@@ -14,7 +14,7 @@ email: federalist-inquiries@gsa.gov
 description: ''
 
 # the subpath of your site, e.g. /blog
-baseurl: ''
+baseurl: './'
 
 # the base hostname & protocol for your site
 url: ''
