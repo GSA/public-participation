@@ -87,7 +87,7 @@
   </ul>
 
   <p>
-    <span style="color: #333333">To contribute, please <span style="text-decoration: underline"><a style="color: #333333;text-decoration: underline" href="mailto:%20justin.herman@gsa.gov" target="_blank">email us</a></span> your recommendations or new content, or <a href="https://mymadison.io/docs/us-public-participation-playbook-vfeb15" target="_blank">visit the Madison platform</a>, hosted by the OpenGov Foundation, to annotate the playbook. </span>
+    <span style="color: #333333">To contribute, please <span style="text-decoration: underline"><a style="color: #333333;text-decoration: underline" href="mailto:%20digitalgov@gsa.gov" target="_blank">email us</a></span> your recommendations or new content, or <a href="https://mymadison.io/docs/us-public-participation-playbook-vfeb15" target="_blank">visit the Madison platform</a>, hosted by the OpenGov Foundation, to annotate the playbook. </span>
   </p>
 
   <p>
