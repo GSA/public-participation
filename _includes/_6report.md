@@ -29,6 +29,9 @@ Transparency builds and maintains trust and respect with participants. When gove
   <li>
     Encourage continued community dialogue and awareness of lessons learned and outcomes.
   </li>
+  <li>
+    Recognize the contributions of partners and stakeholders in developing and maintaining your agency’s playbook. 
+  </li>
 </ul>
 
 ### Case Studies
