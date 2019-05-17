@@ -218,7 +218,7 @@ Community development and outreach involves communication among community stakeh
     Celebrate effectiveness and address critical feedback with participants.
   </li>
   <li>
-    Continue the conversation and maintain relationships.
+    Continue the conversation and maintain relationships through regular and ongoing engagements such as regularly scheduled check-in meetings with stakeholders. 
   </li>
   <li>
     Use the framework you created to develop future uses for the network.
