@@ -1,11 +1,10 @@
-# federalist-landing-page-template
-[Federalist](https://federalist.18f.gov) is an open source web publishing platform for the United States federal government. It provides templates for websites, an online editor for maintaining content, and cloud-based infrastructure for high-scale, low-cost website hosting.
+# participation.usa.gov
 
-The team at 18F builds and maintains it as a hosted service available to federal government agencies.
+Participation.usa.gov is a [Federalist](https://federalist.18f.gov) site.
 
-Using a site like this, you can host a landing page for a report, information about a new program, or ways the public can get in touch.
+### Development
 
----
-
-
-
+* clone the repo
+* `bundle install` (assumes a working Ruby development environment)
+* `jekyll serve --baseurl ""`
+* visit http://127.0.0.1:4000
