@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: federalist-landing-page-template
+title: participation.usa.gov
 
 email: federalist-inquiries@gsa.gov
 
@@ -19,8 +19,8 @@ baseurl: ''
 # the base hostname & protocol for your site
 url: ''
 
-twitter_username: 18F
-github_username:  18F
+twitter_username: usgsa
+github_username:  gsa
 
 # scripts to load on all pages
 scripts: []
