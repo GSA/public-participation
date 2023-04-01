@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/18F/federalist-landing-page-template#readme",
   "dependencies": {
-    "uswds": "^0.13.1"
+    "uswds": "^2.13.3"
   }
 }
